@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    ul > li {
+        @apply flex;
+        @apply flex-nowrap;
+        @apply w-full;
+        @apply px-2;
+        @apply rounded-md;
+        @apply hover:bg-slate-950/60;
+        @apply hover:py-2;
+        @apply duration-200;
+        @apply cursor-pointer;
+    }
+
+    li > ion-icon {
+        @apply mt-0.5;
+        @apply mr-1;
+    }
+}
