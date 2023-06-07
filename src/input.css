@@ -11,6 +11,7 @@
         @apply rounded-md;
         @apply hover:bg-slate-950/60;
         @apply hover:py-2;
+        @apply active:translate-y-1;
         @apply duration-200;
         @apply cursor-pointer;
     }

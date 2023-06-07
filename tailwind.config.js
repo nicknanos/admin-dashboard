@@ -6,7 +6,7 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 16 column grid
         'dashCol': '2fr 8fr',
-        'mainCol': '8fr 2fr'
+        'mainCol': '5fr 2fr'
       },
       gridTemplateRows: {
         'dashRow': '1fr 9fr',
