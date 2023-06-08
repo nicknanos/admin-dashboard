@@ -587,7 +587,7 @@ ul > li {
 }
 
 li > ion-icon {
-  margin-top: 0.125rem;
+  margin-top: 0.25rem;
   margin-right: 0.25rem;
 }
 
@@ -720,23 +720,22 @@ li > ion-icon {
   margin-right: 0.75rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .-ml-10 {
   margin-left: -2.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .ml-5 {
@@ -779,12 +778,12 @@ li > ion-icon {
   margin-top: 0.75rem;
 }
 
-.mt-auto {
-  margin-top: auto;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mt-auto {
+  margin-top: auto;
 }
 
 .box-border {
@@ -928,6 +927,10 @@ li > ion-icon {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[2\.75rem\] {
+  max-width: 2.75rem;
 }
 
 .flex-shrink {
@@ -1263,11 +1266,11 @@ li > ion-icon {
 }
 
 .grid-cols-dashCol {
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: minmax(0,2fr) minmax(0,8fr);
 }
 
 .grid-cols-mainCol {
-  grid-template-columns: 5fr 2fr;
+  grid-template-columns: minmax(0,5fr) minmax(0,2fr);
 }
 
 .grid-rows-2 {
@@ -1275,7 +1278,7 @@ li > ion-icon {
 }
 
 .grid-rows-dashRow {
-  grid-template-rows: 1fr 9fr;
+  grid-template-rows: minmax(0, 1fr) minmax(0,9fr);
 }
 
 .flex-row {
@@ -1472,6 +1475,10 @@ li > ion-icon {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-7 {
@@ -1786,6 +1793,10 @@ li > ion-icon {
   border-radius: 1rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1989,15 +2000,6 @@ li > ion-icon {
   background-color: rgb(255 255 255 / 0.7);
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-white\/50 {
-  background-color: rgb(255 255 255 / 0.5);
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -2127,8 +2129,9 @@ li > ion-icon {
      object-fit: scale-down;
 }
 
-.p-3 {
-  padding: 0.75rem;
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .px-10 {
@@ -2136,14 +2139,14 @@ li > ion-icon {
   padding-right: 2.5rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .px-5 {
@@ -2151,24 +2154,14 @@ li > ion-icon {
   padding-right: 1.25rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .pb-2 {

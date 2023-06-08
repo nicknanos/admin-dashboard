@@ -17,7 +17,7 @@
     }
 
     li > ion-icon {
-        @apply mt-0.5;
+        @apply mt-1;
         @apply mr-1;
     }
 }

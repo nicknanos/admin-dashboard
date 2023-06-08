@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       gridTemplateColumns: {
         // Simple 16 column grid
-        'dashCol': '2fr 8fr',
-        'mainCol': '5fr 2fr'
+        'dashCol': 'minmax(0,2fr) minmax(0,8fr)',
+        'mainCol': 'minmax(0,5fr) minmax(0,2fr)'
       },
       gridTemplateRows: {
-        'dashRow': '1fr 9fr',
+        'dashRow': 'minmax(0, 1fr) minmax(0,9fr)',
       }
     },
   },
