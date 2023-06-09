@@ -9,7 +9,7 @@
 </head>
 <body class="h-screen">
     <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-full flex justify-center items-center">
-        <div class="w-full max-h-[90%] bg-slate-950/40 m-16 pt-3 pl-3 rounded-xl grid grid-cols-dashCol grid-rows-dashRow text-white">
+        <div class="w-full max-h-[90%] min-h-0 bg-slate-950/40 m-16 pt-3 pl-3 rounded-xl grid grid-cols-dashCol grid-rows-dashRow text-white overflow-hidden">
             <!--Header-->
             <div class="w-full col-span-full flex justify-center items-center border-b-2 border-black/30 pb-2">
                 <ion-icon class="text-3xl mt-0.5 mr-1" name="code-slash"></ion-icon>
@@ -23,7 +23,7 @@
                 <p class="mr-3">Your Name</p>
             </div>
             <!--Sidebar-->
-            <div class="flex flex-col justify-start items-center px-4 text-left text-2xl border-r-2 border-black/30">
+            <div class="flex flex-col justify-start items-center px-4 text-left text-2xl border-r-2 border-black/30 overflow-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-stone-950/40 scrollbar-thumb-rounded-2xl">
                 <!-- <h3 class="text-4xl text-slate-700/70 mt-3 -ml-10">Dashboard</h3> -->
                 <ul class="w-4/5 flex flex-col justify-center items-center gap-4 pt-7">
                     <li><ion-icon name="home"></ion-icon>Home</li>
@@ -43,9 +43,9 @@
             <div class="flex flex-col min-h-0 max-h-full">
                 <nav class="sticky flex justify-center gap-7 px-10 py-2 border-b-2 border-black/30">
                     <p class="mr-auto">Hi, Name</p>
-                    <a class="" href="#">New</a>
-                    <a href="#">Upload</a>
-                    <a class="mr-auto" href="#">Share</a>
+                    <a class="     px-4 py-1 bg-indigo-600 rounded-3xl shadow-md hover:bg-indigo-800 active:bg-indigo-500" href="#">New</a>
+                    <a class="     px-4 py-1 bg-indigo-600 rounded-3xl shadow-md hover:bg-indigo-800 active:bg-indigo-500" href="#">Upload</a>
+                    <a class="mr-5 px-4 py-1 bg-indigo-600 rounded-3xl shadow-md hover:bg-indigo-800 active:bg-indigo-500" href="#">Share</a>
                 </nav>
                 <div class="grid grid-cols-mainCol grid-rows-2 gap-y-3 bg-slate-950/10 rounded-br-xl min-h-0 max-h-full">
                     <!--Projects-->
@@ -166,9 +166,9 @@
                         </div>
                     </div>
                     <!--Trending-->
-                    <div class="mt-5 min-h-0 max-h-[90%]">
+                    <div class="mt-5 ">
                         <h3 class="text-xl text-gray-400 ml-5">Trending</h3>
-                        <div class="text-black mx-4 px-1 my-3 min-h-0 max-h-[90%] overflow-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-stone-950/40 scrollbar-thumb-rounded-2xl">
+                        <div class="text-black mx-4 px-1 my-3 min-h-0 max-h-[80%] overflow-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-stone-950/40 scrollbar-thumb-rounded-2xl">
                             <div class="flex gap-5 bg-white/70 px-3 py-2 mb-1 rounded-3xl">
                                 <img class="max-w-[2.75rem]  rounded-full mx-3" src="https://xsgames.co/randomusers/assets/avatars/pixel/2.jpg" alt="avatar">
                                 <div>
